@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #373F51;
+}
+
+.header{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    font-size: 50px;
+    color: #D8DBE2;
+    height: 100px;
+}
+
+.header, .buttons, .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    height: 50px;
+}
+
+.container{
+    flex: 1;
+}
+
+.container .grid{
+    box-sizing: border-box;
+    border: 2px solid #58A4B0;
+    height: 644px;
+    width: 644px;
+    flex-shrink: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .grid .element{
+    box-sizing: border-box;
+    /*height: 40px;
+    width: 40px;*/
+    border: 1px solid #58A4B0;
+}
+
+button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: #DAA49A;
+    border-radius: 8px;
+    border: none;
+    margin: 0 18px;
+    padding: 3px 15px;
+}
