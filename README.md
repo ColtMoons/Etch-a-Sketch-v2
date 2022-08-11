@@ -4,4 +4,4 @@ This project is going to be make by using HTML, CSS and JavaScript. Also I'm goi
 
 I use more clean code than the older version, this was made searching for a better result and learning more about where and how to call functions and diferent ways to add and event listener in my html elements.
 
-## There is not live preview yet
+Live: https://coltmoons.github.io/Etch-a-Sketch-v2/
